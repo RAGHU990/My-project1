@@ -151,7 +151,7 @@ width: 100%;
 .text-x1{
     font-size: 1.2rem;
     line-height: 2rem;
-    color: /#1d3557;
+    color: #1d3557;
     font-weight: 900;
 }
 .email__subcribe__container {
@@ -215,6 +215,7 @@ width: 100%;
   .quote__container {
     position: relative;
     margin-top: 4rem;
+    margin-bottom: 3rem;
     align-items: center;
     display: flex;
     flex-direction: column;
