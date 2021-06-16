@@ -123,6 +123,40 @@ margin-bottom: 15px;
      justify-content: space-between;
      gap: 10px;
  }
+
+.explore__menu__container{
+    position: relative;
+}
+
+.explore__menu__gradient__bg{
+position: absolute;
+left: 0;
+top: 0;
+
+height: 100%;
+width: 100%;
+
+background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+);
+
+z-index: -3;
+transform:skewY(-5deg)
+}
+
+.explore__menu__lists{
+    display: flex;
+    gap: 8px;
+    margin-top: 50px;
+}
+
+#pizza__card{
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
 }
 
 
@@ -130,6 +164,15 @@ margin-bottom: 15px;
 @media (min-width:1020px){
     .container{
         max-width: 900px;
+    }
+
+    .explore__menu__lists{
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .explore__menu__text{
+        font-size: 50px;
     }
  
 
